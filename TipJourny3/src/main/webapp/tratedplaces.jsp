@@ -15,7 +15,7 @@
     <body class="custom-bgg">
          <%@include file="componenets/navbar.jsp"%>
          <div class="container">
-         <h1 style="text-align:center;margin-top:10px"><i>Top Rated Places To Travel Across India</i></h1>
+             <h1 style="text-align:center;margin-top:10px;font-family: Adobe Devanagari"><i><b>Top Rated Places To Travel Across India</b></i></h1>
          </div>
           <div class="card" >
          <div class="container" style="display: block">
@@ -148,5 +148,37 @@
              </div>
              </div>
          </div>
+         <!--footer-->
+          <div class="footer-container" style="background: #f3f6f9!important;">
+             <!--<h2>skhfs</h2>-->
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-3" style="margin-top:20px">
+                         <h2>TJ</h2>
+                     </div>
+                      <div class="col-md-3" style="margin-top:20px">
+                          <h5>Information</h5>
+                          <p>About Us</p>
+                          <p>Reviews</p>
+                          <p>Top Related Places</p>
+                          <p>Holidays's Fun</p>
+                          <p>Weekend Fun</p>
+                          
+                     </div>
+                      <div class="col-md-3" style="margin-top:20px">
+                          <h5>Contact</h5>
+                          
+                          <p>Contact Us</p>
+                          <p>Help</p>
+                     </div>
+                      <div class="col-md-3">
+                          <h5 style="margin-top: 8%">Download</h5>
+                          <img src="img/google_play.png" style="margin-top: 28px;width:70%;height:32%"><a href='#'></a>
+                     </div>
+                 </div>
+             </div>
+             
+         </div>
+         
     </body>
 </html>

@@ -3,11 +3,13 @@
     <link rel="stylesheet" href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <!--new navabar-->
- 
+<!-- .navbar-dark .navbar-nav .nav-link {
+    color: #212529;
+}-->
 <!-- nbar -->
-<nav class="navbar navbar-expand-sm navbar-dark bg-light custom-bg">
+<nav class="navbar navbar-expand-sm navbar-dark bg-light" style="background: #f3f6f9!important"><!--  style="background: #E1F5FE !important -->
         <div class="container">
-            <a class="navbar-brand text-white" href="index.jsp">
+            <a class="navbar-brand" href="index.jsp"><!-- text-dark -->
               TJ
             </a>
             <button class="navbar-toggler" type="button" 
@@ -19,37 +21,37 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
   
-            <div class="collapse navbar-collapse"></div>
+            <div class="collapse navbar-collapse text-dark" ></div>
   
             <div class="collapse navbar-collapse" 
                  id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto" style="margin-left:195px">
+                <ul class="navbar-nav mr-auto" style="margin-left:195px;">
                     <li class="nav-item active" style="margin-left: 55px;" >
                         <a class="nav-link" 
-                           href="index.jsp">
+                           href="index.jsp" style="color: #212529">
                           Home 
                         
                       </a>
                     </li>
                     <li class="nav-item" style="margin-left: 45px;">
                         <a class="nav-link" 
-                           href="#">
+                           href="about.jsp" style="color: #212529">
                           About Us
                         </a>
                     </li>
                     <li class="nav-item" style="margin-left: 45px;">
                         <a class="nav-link"
-                            href="tratedplaces.jsp" >TRated Places
+                            href="tratedplaces.jsp"style="color: #212529" >TRated Places
                         </a>
                     </li>
                      <li class="nav-item" style="margin-left: 45px;">
                         <a class="nav-link"
-                           href="register.jsp" >Register
+                           href="register.jsp" style="color: #212529" >Register
                         </a>
                     </li>
                      <li class="nav-item" style="margin-left: 45px;">
                         <a class="nav-link"
-                           href="login.jsp">Login
+                           href="login.jsp" style="color: #212529">Login
                         </a>
                     </li>
                 </ul>

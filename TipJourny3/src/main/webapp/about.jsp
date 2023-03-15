@@ -14,6 +14,10 @@
     </head>
     <body>
            <%@include file="componenets/navbar.jsp"%>
-        <h1>Hello World!</h1>
+           <div class="container">
+               <div class="row">
+                   <h2>hello</h2>
+               </div>
+           </div>
     </body>
 </html>
